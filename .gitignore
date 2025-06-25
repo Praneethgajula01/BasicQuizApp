@@ -1,0 +1,47 @@
+# Compiled class files
+*.class
+# Log files
+*.log
+log/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IDE specific files
+.idea/                 # IntelliJ IDEA project files
+*.iml                  # IntelliJ IDEA module files
+*.ipr                  # IntelliJ IDEA project files
+*.iws                  # IntelliJ IDEA workspace files
+.vscode/               # VS Code specific settings (if you don't want to share them)
+.project               # Eclipse project files
+.classpath             # Eclipse classpath files
+.settings/             # Eclipse settings directory
+
+# Build artifacts
+target/                # Maven build output directory
+build/                 # Gradle build output directory
+out/                   # Generic IDE compilation output
+
+# OS generated files
+.DS_Store              # macOS specific
+Thumbs.db              # Windows specific
+ehthumbs.db            # Windows specific
+Desktop.ini            # Windows specific
+
+# Maven/Gradle Wrapper (if you use them later)
+!/mvnw
+!/mvnw.cmd
+.gradle
+/gradlew
+/gradlew.bat
+
+# VS Code specific workspace storage (often in AppData, but sometimes in workspace)
+.history/
+.vs/
+*.code-workspace
+*/workspaceStorage/ # This is a common pattern for VS Code's temporary workspace files
